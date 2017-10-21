@@ -17,6 +17,7 @@ public class ListControls {
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://cleartrip.com/");
+		driver.getCurrentUrl();
 		String title = driver.getTitle();
 		String clrurl =driver.getCurrentUrl();
 		System.out.println(title);
